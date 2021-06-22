@@ -197,7 +197,7 @@ ul.primary-menu li:hover > a{
 /* banner */
 
 .banner{
-    background: url(img/main-banner2.jpg) no-repeat top center;
+    background: url(https://i.ibb.co/m51MFS1/main-banner2.jpg) no-repeat top center;
     background-size: cover;
     height: 110vh;
     position: relative;
@@ -282,7 +282,7 @@ ul.primary-menu li:hover > a{
 .about-img img{
 }
 .about-shape {
-	background: url(img/shape.png) no-repeat center center;
+	background: url(https://i.ibb.co/zJFsZg8/shape.png) no-repeat center center;
 	background-size: cover;
 	height: 190px;
 	width: 200px;
@@ -618,7 +618,7 @@ ul.primary-menu li:hover > a{
   }
   .call-left h2 {
 	color: #fff;
-	font-size: 38px;
+	font-size: 36px;
 	font-weight: 500;
 	line-height: 48px;
 }
@@ -989,7 +989,16 @@ ul.primary-menu li:hover > a{
 	height: 25px;
 	background: #345edf;
   } */
-  
+  .business-form a {
+	margin-left: 0;
+	margin-top: ;
+	margin-top: 50px;
+	margin-bottom: ;
+	display: inlne-block;
+	position: ;
+	position: relative;
+	top: 17px;
+}
   
   .footer-bottom {
 	padding: 36px 0;
@@ -1019,9 +1028,10 @@ ul.primary-menu li:hover > a{
 .about-us{
 	background: url(img/bg.jpg) no-repeat center center;
 	background-size: cover;
-	height: 80vh;
+	height: 70vh;
 	position: relative;
 	z-index: 1;
+	background-attachment: fixed;
 }
 
 
@@ -1046,14 +1056,15 @@ ul.primary-menu li:hover > a{
 .about-us-content ul li a {
 	display: inline-block;
 	text-decoration: none;
-	color: #000;
+	color: #606060;
 	padding: 0 12px;
+	font-weight: 500;
   }
   .about-s {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 80vh;
+	min-height: 70vh;
 }
 .about-us::before{
 	content: "";
@@ -1065,4 +1076,112 @@ ul.primary-menu li:hover > a{
 	background-color: rgba(255, 255, 255, 0.568);
 	z-index: -1;
 }
+.ho-bg{
+	color: #e83b3e !important;
+}
+.about-us-content h2 {
+	font-size: 44px;
+	font-weight: 600;
+}
+.about-about-img {
+	position: relative;
+}
+.img1 img {
+	width: 405px;
+	position: absolute;
+	top: 0;
+	left: -46px;
+}
+.img2 img {
+	width: 448px;
+	position: absolute;
+	top: 137px;
+	left: 81px;
+}
+.about-about-text {
+	position: absolute;
+	top: 281px;
+	left: 2px;
+	background: #fff;
+	border-left: 4px solid #e83b3e;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	width: 480px;
+	box-shadow: 1px 1px 20px #ddd;
+}
+.about-about-text h2 {
+	font-size: 89px;
+	margin-right: 20px;
+}
+.about-about-text h4 {
+	font-size: 35px;
+}
 
+
+
+.about-client-left {
+}
+.about-client-left img {
+  width: 60px;
+  height: 60px;
+  margin-right: 28px;
+  border-radius: 50%;
+}
+.about-client-text {
+}
+.about-client-text h6 {
+  color: #e83b3e;
+}
+.about-client-text p {
+  color: #606060;
+}
+.about-client-left span {
+  color: #e83b3e;
+  font-size: 54px;
+}
+.about-client-left p {
+  margin-top: ;
+}
+.about-footer {
+	padding-top: 80px;
+	background: #111;
+}
+.about-call {
+	position: relative;
+	top: 100px;
+}
+.row.about-call-bg {
+	background: #e83b3e;
+	padding: 50px;
+	border-radius: 10px;
+}
+
+/* service page */
+
+/* service */
+
+.service-us{
+	background: url(img/about/bg-3.jpg) no-repeat center center;
+	background-size: cover;
+	height: 70vh;
+	position: relative;
+	z-index: 1;
+	background-attachment: fixed;
+}
+
+.service-us::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.568);
+	z-index: -1;
+}
+.choose-text a {
+	text-decoration: none;
+	color: #e83b3e;
+	font-weight: 600;
+}
